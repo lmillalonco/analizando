@@ -18,9 +18,11 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h4 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-orange-500 cursor-pointer'>
+          <h3 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-orange-500 cursor-pointer'>
             Galería Fotos
-          </h4>
+          </h3>
+          {/* ver si cambio */}
+
           <ul>
             <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Arquitectura</li>
             <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Paisajes</li>
